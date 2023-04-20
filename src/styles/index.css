@@ -1,1 +1,140 @@
 /* Desenvolva sua estilização aqui ... */
+.container__options-music{
+    padding: 77px 0;
+}
+
+.div__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button__icon{
+    width: 36px;
+    height: 36px;
+    border: none;
+    outline: none;
+}
+
+.button__icon:hover{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+h2{
+    font-size: var(--font-1);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 33.89px;
+}
+
+
+.div__options-music{
+ margin-top: 65px;
+}
+
+.div__option-text{
+    font-size: var(--font-2);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 19.36px;
+
+}
+
+.div__buttons-music{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34.14px;
+
+}
+
+
+.button__all:hover{
+    background-color:var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.option__button{
+    width: max-content;
+    height: 32px;
+    border-radius: var(--radius-1);
+    color:var(--color-grey-2);
+    font-size: var(--font-3);
+    font-weight: 500;
+    background-color: var(--color-grey-8);
+    border: 1px solid var(--color-grey-8);
+    padding: 0 8px;
+}
+
+.option__button:hover{
+    background-color:var(--color-grey-1);
+    color: var(--color-grey-8);
+}
+
+.container__input{
+    margin-top: 65px;
+    width: 100%;
+}
+
+.input__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.input__paragraph{
+    color:var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: 600;
+    line-height: 19.36px;
+
+}
+
+.input__value{
+    color:var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: 500;
+    color: var(--color-grey-1);
+    line-height: 19.36px;
+    margin-bottom: 32px;
+}
+
+.input {
+    width: 100%;
+    appearance: none;
+    height: 8px;
+    background-color:var(--color-grey-5);
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.input:hover{
+    opacity: 3;
+}
+
+.input::-webkit-slider-thumb{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-grey-9);
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: -8px;
+    border: 6px solid var(--color-brand-1);
+    box-shadow: -407px 0 0 400px var(--color-brand-1);
+}
+
+.input::-webkit-slider-runnable-track{
+    background-color:var(--color-grey-5);
+    height: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+
+} 

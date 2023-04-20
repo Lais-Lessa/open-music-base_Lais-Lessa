@@ -1,0 +1,96 @@
+.render__music{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.render__music-text{
+    font-size: var(--font-2);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 19.36px;
+    margin-bottom: 60px;
+}
+
+.render__cart{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border-radius: 4px;
+    background-color: var(--color-grey-8);
+    margin-bottom: 38px;
+}
+
+.render__cart > img {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 320px;
+
+}
+
+.render__span{
+    display: flex;
+    gap: 20px;
+    padding: 0 16px;
+   
+}
+
+.render__span-music{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-grey-2);
+    line-height: 14.52px;
+}
+
+.render__span-year{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-grey-2);
+    line-height: 14.52px;
+
+}
+
+.render__music-paragraph{
+    font-size: var(--font-2);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 19.36px;
+    margin-top: 20px;
+    padding: 0 16px;
+
+}
+
+
+.render__value{
+    margin-top: 27.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 32px;
+    padding: 0 16px 0 12px;
+    margin-bottom: 27.5px;
+}
+
+.render__value-text{
+    font-size: var(--font-3);
+    font-weight: 600;
+    color: var(--color-grey-1);
+    line-height: 16.94px;
+  
+}
+
+.button__cart{
+    height: 32px;
+    width: 75px;
+    border: none;
+    font-size: var(--font-3);
+    font-weight: 500;
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    border-radius: 4px;
+}
+
